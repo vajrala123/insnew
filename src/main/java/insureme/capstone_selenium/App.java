@@ -19,7 +19,7 @@ public class App
 	 public static void main( String[] args ) throws InterruptedException
 	    {
 	                
-	        //System.setProperty("webdriver.chrome.driver", "C:\\Prathap\\Azure\\Bootcamp-TCS\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+	       
 	        
 		    WebDriverManager.chromedriver().setup();
 		    
@@ -30,7 +30,7 @@ public class App
 	        
 	        System.out.println("Script Execution Started...");
 	        
-	        driver.get("http://107.21.193.163:8085/contact.html");
+	        driver.get("http://18.118.213.148:8081/contact.html");
 	        
 	        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	        
@@ -41,19 +41,19 @@ public class App
 	        
 	        Thread.sleep(1000);
 	        
-	        driver.findElement(By.id("inputName")).sendKeys("Prathap G");
+	        driver.findElement(By.id("inputName")).sendKeys("Vajrala");
 	        
 	        Thread.sleep(1000);
 	        
-	        driver.findElement(By.id("inputNumber")).sendKeys("8889991111");
+	        driver.findElement(By.id("inputNumber")).sendKeys("998877664");
 	        
 	        Thread.sleep(1000);
 	        
-	        driver.findElement(By.id("inputMail")).sendKeys("admin@xyz.com");
+	        driver.findElement(By.id("inputMail")).sendKeys("vajrala@xyz.com");
 	        
 	        Thread.sleep(1000);
 	        
-	        driver.findElement(By.id("inputMessage")).sendKeys("I am interested");
+	        driver.findElement(By.id("inputMessage")).sendKeys("I want insurance");
 	        
 	        Thread.sleep(1000);
 	        
