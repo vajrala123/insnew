@@ -81,8 +81,7 @@
         </plugin>
         <plugin> 
 			<artifactId>maven-assembly-plugin</artifactId> 
-		        <version>2.2-beta-5</version>
-			<configuration> 
+		        <configuration> 
 				<archive> 
 					<manifest> 
 					  <mainClass>insureme.capstone_selenium.App</mainClass> 
